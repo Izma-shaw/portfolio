@@ -128,7 +128,7 @@ export const projectsData = [
      
     {
         title: "Ce Portfolio",
-        url : "https://ahmat-mahamat.vercel.app/",
+        url : "https://ismael-sow.vercel.app/",
         technologies : "React, NextJs, Tailwind CSS, NodeMailer, Google Captcha API",
         desciption : "Ce portfolio présente les travaux et mes projets , en utilisant des technologies web modernes telles que React et Next.js pour offrir une expérience utilisateur fluide. Le site présente un design propre et réactif, conçu avec Tailwind CSS pour un style et une mise en page efficaces. Les utilisateurs peuvent facilement naviguer entre les différentes sections, y compris les projets, les compétences et les informations de contact. Le portfolio intègre également NodeMailer pour gérer les soumissions de formulaires, garantissant que les demandes arrivent directement dans l'e-mail du propriétaire. De plus, l'API Google Captcha améliore la sécurité en empêchant les soumissions de spam. Ce portfolio met en valeur non seulement les réalisations professionnelles, mais aussi un engagement envers les pratiques contemporaines du développement web."
     },
