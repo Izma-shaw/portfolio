@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <Features />
       <Resume />
-      <Services />
+      {/* <Services /> */}
       <Contact />
     </>
   );

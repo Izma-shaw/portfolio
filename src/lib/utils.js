@@ -3,21 +3,21 @@ import profileImage from "/src/images/profile.png";
 // nav link
 export const links = [
     {
-        url: "#home",
-        text: "Home"
+        url: "#accueil",
+        text: "Accueil"
     },
     {
         url: "#features",
         text: "Features"
     },
     {
-        url: "#resume",
-        text: "Resume"
+        url: "#cv",
+        text: "CV"
     },
-    {
-        url: "#services",
-        text: "Services",
-    },
+    // {
+    //     url: "#services",
+    //     text: "Services",
+    // },
     {
         url: "#contact",
         text: "Contact"

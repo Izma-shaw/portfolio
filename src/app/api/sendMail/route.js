@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { transport, mailOptions, EnglishMail } from '@/lib/nodeMailer';
+import { transport, mailOptions, FrMail } from '@/lib/nodeMailer';
 
 export async function POST(request) {
   const { email, name, message, captchaToken } = await request.json();
@@ -25,7 +25,7 @@ export async function POST(request) {
     if (captchaTokenValidation.success) {
       try {
         await transport.sendMail(mailOptions({name, email, message}));
-        await transport.sendMail(EnglishMail({name, email}));
+        await transport.sendMail(FrMail({name, email}));
         return NextResponse.json({message : "Your mail has been sent successfully."},{status: 200});
       } catch (err) {
         console.log(err);
