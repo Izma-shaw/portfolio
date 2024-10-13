@@ -18,7 +18,7 @@ export const degreesData = [
 
 export const skillsData = [
     'Git',
-    'Docker',
+    'Javascript',
     'React',
     'Next JS',
     'Graphql',
@@ -143,7 +143,7 @@ export const projectsData = [
     },
     {
         title: "Hanabi Game Project",
-        url: "https://github.com/Izma-shaw/jeu-de-hanabi",
+        url: "https://github.com/Izma-shaw/intelligence-artificielle-pour-hanabi",
         technologies: "Java, MVC, Apache Ant",
         desciption: "Développement du jeu Hanabi en utilisant Java. Comprend des versions graphiques et console avec une architecture MVC. Le projet peut être exécuté via Apache Ant ou directement à partir du fichier JAR généré."
     },
@@ -158,7 +158,7 @@ export const projectsData = [
         title: "Création et Alimentation d'un Entrepôt de Données",
         technologies: "Talend, SQL, ETL, Modélisation en étoile, OLAP",
         desciption: "Création d'un entrepôt de données en utilisant une modélisation en étoile pour l'analyse des ventes à travers des axes comme la date, le lieu, les prestations, et les clients. Développement de scripts SQL pour la création des tables de dimensions et de faits (DIMDate, DIMLieu, DIMPrestation, DIMClient, Ventes). Mise en place de plusieurs jobs ETL avec Talend pour l'alimentation automatisée des différentes dimensions à partir de fichiers sources. Transformation des données en un format XML pour optimiser les analyses multidimensionnelles (OLAP).",
-        url: "https://github.com/Izma-shaw/entrepot-donnees"  // Mettre l'URL de votre projet ici si disponible
+        url: "https://github.com/Izma-shaw/datawarehouse-talend"  // Mettre l'URL de votre projet ici si disponible
       },    
     {
         title: "Agent Q-learning pour Frozen Lake",
@@ -169,13 +169,13 @@ export const projectsData = [
     
     {
         title: "Éditeur de formes géométriques",
-        url: "https://github.com/Izma-shaw",
+        url: "https://github.com/Izma-shaw/Editeur-de-formes-geometriques",
         technologies : "Java, MVC pattern, Command, Observer, State, Strategy, Factory Method",
         desciption : "Il s'agit d'un projet éducatif en Java qui met en lumière l'utilisation de divers patrons de conception fondamentaux. Grâce à ce jeu, vous découvrirez comment ces patrons s'assemblent pour créer une application cohérente et extensible."
     },
     {
         title: "Jeu de stratégie au tour par tour",
-        url: "https://github.com/Izma-shaw",
+        url: "https://github.com/Izma-shaw/Jeu-de-Strategie-au-Tour-par-Tour",
         technologies: "Java, MVC, Pattern Proxy, Pattern Stratégie, Pattern Adapter, Pattern Factory",
         desciption: "Développement d'un jeu de stratégie au tour par tour en utilisant différents design patterns. Le jeu oppose entre 2 et n joueurs sur une grille en 2 dimensions, avec une architecture utilisant MVC et divers patterns pour la gestion des combattants, de l'affichage et des stratégies de jeu."
     },
@@ -189,13 +189,13 @@ export const projectsData = [
         title: "Traitement Automatique des Langues (NLP)",
         technologies: "Python, NLTK, spaCy, Scikit-learn, Pandas, NumPy",
         desciption: "Exploration des techniques avancées de NLP pour développer une solution complète pour l'analyse de textes, incluant l'analyse des sentiments, la classification de textes, et l'extraction de caractéristiques linguistiques.",
-        url: "https://github.com/Izma-shaw/nlp-project"
+        url: "https://github.com/Izma-shaw/Traitement-Automatique-des-Langues--NLP-"
     },
     {
         title: "Jeu de Triominos en Python avec Tkinter",
         technologies: "Python, Tkinter",
         desciption: "Développement d'un jeu de Triominos avec une interface graphique en utilisant Tkinter. Le jeu propose de jouer soit à deux joueurs en local, soit contre une Intelligence Artificielle.",
-        url: "https://github.com/Izma-shaw/jeu-triominos"
+        url: "https://github.com/Izma-shaw/Jeu-de-Triominos"
     },
     
 ]
@@ -213,16 +213,15 @@ export const experiencesData = [
         title: "Gestion de Pharmacie",
         company: "Network Systèms- Guinée",
         date: "2019 - 2020",
-        url: "https://github.com/Izma-shaw",
         technologies: "Laravel, PHP, HTML, CSS, JavaScript",
         desciption: "Conception et développement d'une plateforme web pour la gestion des stocks, des commandes, et des clients en pharmacie, avec un système de suivi en temps réel des stocks."
     },
     {
         title: "Opérateur Rotomoulage",
-        company: "Rotofrance - Caen, France",
+        company: "Rotofrance - Blainville-sur-ornes, France",
         date: "ETE. 2022 et 2023",
         technologies: "Maintenance, Analyse de données, Qualité",
-        desciption: "Responsable de la production chaque été, assurant la supervision des opérations de rotomoulage et la gestion complète des machines. Collecte et analyse des données de performance pour optimiser les cycles de production et réduire les temps d'arrêt. Surveillance des indicateurs de qualité et utilisation des données pour améliorer les processus et garantir des standards élevés de production. Participation à l'automatisation des processus et formation des opérateurs sur les meilleures pratiques de production, y compris l'utilisation des données pour la maintenance préventive."
+        desciption: "Responsable d'une ligne de production, assurant la supervision des opérations de rotomoulage et la gestion complète de la machines. Collecte et analyse des données de performance pour optimiser les cycles de production et réduire les temps d'arrêt. Surveillance des indicateurs de qualité et utilisation des données pour améliorer les processus et garantir des standards élevés de production. Participation à l'automatisation des processus et formation des opérateurs sur les meilleures pratiques de production, y compris l'utilisation des données pour la maintenance préventive."
     },
     {
         title: "Agent de Conditionnement",
