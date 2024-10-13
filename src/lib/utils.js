@@ -8,11 +8,11 @@ export const links = [
     },
     {
         url: "#features",
-        text: "Features"
+        text: "Compétences"
     },
     {
-        url: "#cv",
-        text: "CV"
+        url: "#resume",
+        text: "Expériences"
     },
     // {
     //     url: "#services",
@@ -34,13 +34,13 @@ export const media = [
     },
     {
         "name": "Linkedin",
-        "url": "https://www.linkedin.com/in/ahmat-mahamat", // change it to your Linkedin profile link
+        "url": "https://www.linkedin.com/in/sow-ismael-11871a140/", // change it to your Linkedin profile link
         "show": true, // turn it to false if you don't have Linkedin
         "icon" : <FaLinkedin className="rounded-full" fill="black"/>
     },
     {
         "name": "Twitter",
-        "url": "https://x.com/Ahmat_2000", // change it to your Twitter profile link
+        "url": "", // change it to your Twitter profile link
         "show": true, // turn it to false if you don't have Twitter
         "icon" : <FaTwitter fill="black"  />
     },
@@ -62,14 +62,14 @@ export const media = [
 export const userData = {
     name: "Ismael",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
-    profession: ['Freelancer', 'Developer', 'Pentester'],
-    descriptionText :"Description à faire.",
+    profession: ['Data Scientist', 'Data Analyst', 'Data Engineer', 'Machine Learning'],
+    descriptionText: "Étudiant en Master 2 Algorithme et Système Intelligent, orienté Sciences de Données à l'Université de Caen Normandie, je recherche un stage de fin d'études de 4 à 6 mois à partir de mars 2025. Passionné par l'analyse de données et l'IA, je souhaite contribuer à des projets innovants en data science. Mes compétences incluent la gestion et transformation de données (Pandas, Numpy, SQL), la modélisation prédictive (régression, classification, clustering), et le développement de modèles de machine learning et deep learning (TensorFlow, Keras, PyTorch). J'ai également une expérience en visualisation de données (Tableau, Seaborn) et en vision par ordinateur. Motivé, curieux, et rigoureux, je suis prêt à relever des défis techniques et apporter une valeur ajoutée grâce à mon esprit d'initiative et ma capacité à travailler en équipe.",
     phoneNumber : "+33 7 58 64 42 87",
     email : "sowismael224@gmail.com",
     adress : "114 rue de lebisey, 14000 Caen, France",
 }
 // your professions
-export const wordToType = ['Freelancer', 'Developer', 'Pentester'];
+export const wordToType = ['Data Scientist', 'Data Analyst', 'Data Engineer', 'Machine Learning'];
 
 // description
-export const descriptionText = "I am a self-taught programmer and passionate about cybersecurity.";
+export const descriptionText = "";

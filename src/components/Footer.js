@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Footer() {
     return ( 
-        <footer class="footer">
-
+        <footer className="footer bg-primary text-white py-8 text-center">
+            <p className="text-sm font-sans">© 2024 Ismael Sow. Tous droits réservés.</p>
         </footer>
      );
 }

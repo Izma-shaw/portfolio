@@ -18,11 +18,9 @@ export const degreesData = [
 
 export const skillsData = [
     'Git',
-    'AWS',
     'Docker',
     'React',
     'Next JS',
-    'Django',
     'Graphql',
     'Tailwind',
     'C',
@@ -34,6 +32,12 @@ export const skillsData = [
     'MongoDB',
     'MySQL',
     'PostgreSQL',
+    'Numpy',
+    'OpenCV',
+    'Tensorflow',
+    'Pytorch',
+    'canva',
+
 
     // Choose your skills from below. Make sure it's in the same format and spelled correctly.
     // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
@@ -130,8 +134,7 @@ export const projectsData = [
         title: "Ce Portfolio",
         url : "https://ismael-sow.vercel.app/",
         technologies : "React, NextJs, Tailwind CSS, NodeMailer, Google Captcha API",
-        desciption : "Ce portfolio présente les travaux et mes projets , en utilisant des technologies web modernes telles que React et Next.js pour offrir une expérience utilisateur fluide. Le site présente un design propre et réactif, conçu avec Tailwind CSS pour un style et une mise en page efficaces. Les utilisateurs peuvent facilement naviguer entre les différentes sections, y compris les projets, les compétences et les informations de contact. Le portfolio intègre également NodeMailer pour gérer les soumissions de formulaires, garantissant que les demandes arrivent directement dans l'e-mail du propriétaire. De plus, l'API Google Captcha améliore la sécurité en empêchant les soumissions de spam. Ce portfolio met en valeur non seulement les réalisations professionnelles, mais aussi un engagement envers les pratiques contemporaines du développement web."
-    },
+        desciption : "Ce portfolio met en avant mes projets et compétences à travers des technologies web modernes telles que React et Next.js, offrant une navigation fluide et optimisée. Le design, épuré et réactif, est élaboré avec Tailwind CSS pour garantir une présentation claire et structurée. Les utilisateurs peuvent explorer aisément les sections dédiées aux projets, compétences, et informations de contact.L'intégration de NodeMailer permet une gestion directe et efficace des soumissions de formulaires, acheminées en toute sécurité vers mon adresse email. De plus, l'API Google Captcha renforce la sécurité en bloquant les soumissions automatisées. Ce portfolio illustre non seulement mes réalisations professionnelles, mais également mon engagement envers les meilleures pratiques du développement web actuel." },
     {
         title: "Analyse des Genres sur Wikipedia",
         technologies: "Python, wikipedia-api, Pandas, Requests, Re",
@@ -151,16 +154,17 @@ export const projectsData = [
         desciption: "Mise en œuvre de méthodes telles que Mean-Shift, SLIC, et Watershed pour la segmentation avancée des images et l'extraction de caractéristiques visuelles complexes. Application d'algorithmes tels que Canny et Hough pour assurer une détection précise des lignes et des formes circulaires dans les images."
     },
     {
+
+        title: "Création et Alimentation d'un Entrepôt de Données",
+        technologies: "Talend, SQL, ETL, Modélisation en étoile, OLAP",
+        desciption: "Création d'un entrepôt de données en utilisant une modélisation en étoile pour l'analyse des ventes à travers des axes comme la date, le lieu, les prestations, et les clients. Développement de scripts SQL pour la création des tables de dimensions et de faits (DIMDate, DIMLieu, DIMPrestation, DIMClient, Ventes). Mise en place de plusieurs jobs ETL avec Talend pour l'alimentation automatisée des différentes dimensions à partir de fichiers sources. Transformation des données en un format XML pour optimiser les analyses multidimensionnelles (OLAP).",
+        url: "https://github.com/Izma-shaw/entrepot-donnees"  // Mettre l'URL de votre projet ici si disponible
+      },    
+    {
         title: "Agent Q-learning pour Frozen Lake",
         url: "https://github.com/Izma-shaw",
         technologies: "Python, Reinforcement Learning",
         desciption: "Développement d'un agent apprenant à naviguer dans 'Frozen Lake' via l'algorithme de Q-learning. Utilisation d'un réseau de neurones pour prédire les valeurs Q et améliorer les décisions de l'agent."
-    },
-    {
-        title: "Gestion de Pharmacie",
-        url: "https://github.com/Izma-shaw",
-        technologies: "Laravel, PHP, HTML, CSS, JavaScript",
-        desciption: "Conception et développement d'une plateforme web pour la gestion des stocks, des commandes, et des clients en pharmacie, avec un système de suivi en temps réel des stocks."
     },
     
     {
@@ -184,7 +188,7 @@ export const projectsData = [
     {
         title: "Traitement Automatique des Langues (NLP)",
         technologies: "Python, NLTK, spaCy, Scikit-learn, Pandas, NumPy",
-        description: "Exploration des techniques avancées de NLP pour développer une solution complète pour l'analyse de textes, incluant l'analyse des sentiments, la classification de textes, et l'extraction de caractéristiques linguistiques.",
+        desciption: "Exploration des techniques avancées de NLP pour développer une solution complète pour l'analyse de textes, incluant l'analyse des sentiments, la classification de textes, et l'extraction de caractéristiques linguistiques.",
         url: "https://github.com/Izma-shaw/nlp-project"
     },
     {
@@ -194,15 +198,39 @@ export const projectsData = [
         url: "https://github.com/Izma-shaw/jeu-triominos"
     },
     
-    
 ]
 
 export const experiencesData = [
+   
     {
-        title: "Ingénieur de donnée",
-        company: "Société AS et Fils - Guinée",
+        title: "Ingénieur de données",
+        company: "Entreprise AS et Fils - Guinée",
         date: "2018 - 2019",
         technologies: "Python, SQL, Tableau, Excel",
-        desciption: "Responsable de la gestion, optimisation et nettoyage des bases de données de l'entreprise. Extraction et analyse de données pour la création de rapports et tableaux de bord, avec automatisation des processus."
+        desciption: "Responsable de la gestion, de l'optimisation et du nettoyage des bases de données de l'entreprise. Extraction et analyse de données pour la création de rapports et tableaux de bord. Mise en place de scripts d'automatisation pour améliorer l'efficacité des processus. Collaboration avec les équipes métiers pour fournir des insights stratégiques.",
     },
-]
+    {
+        title: "Gestion de Pharmacie",
+        company: "Network Systèms- Guinée",
+        date: "2019 - 2020",
+        url: "https://github.com/Izma-shaw",
+        technologies: "Laravel, PHP, HTML, CSS, JavaScript",
+        desciption: "Conception et développement d'une plateforme web pour la gestion des stocks, des commandes, et des clients en pharmacie, avec un système de suivi en temps réel des stocks."
+    },
+    {
+        title: "Opérateur Rotomoulage",
+        company: "Rotofrance - Caen, France",
+        date: "ETE. 2022 et 2023",
+        technologies: "Maintenance, Analyse de données, Qualité",
+        desciption: "Responsable de la production chaque été, assurant la supervision des opérations de rotomoulage et la gestion complète des machines. Collecte et analyse des données de performance pour optimiser les cycles de production et réduire les temps d'arrêt. Surveillance des indicateurs de qualité et utilisation des données pour améliorer les processus et garantir des standards élevés de production. Participation à l'automatisation des processus et formation des opérateurs sur les meilleures pratiques de production, y compris l'utilisation des données pour la maintenance préventive."
+    },
+    {
+        title: "Agent de Conditionnement",
+        company: "Laboratoires Gilbert et Famaclair - Hérouville-Saint-Clair, France",
+        date: "ETE. 2024",
+        technologies: "Conditionnement, Qualité, Gestion de production",
+        desciption: "Responsable du conditionnement et de l'emballage des produits dans le respect des normes de qualité et de sécurité. Vérification de la conformité des lots et suivi des procédures de contrôle qualité. Collaboration avec les équipes de production pour garantir la continuité des flux de travail et minimiser les arrêts de ligne.",
+    },
+];
+
+

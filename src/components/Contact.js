@@ -16,12 +16,13 @@ import ReCAPTCHA from "react-google-recaptcha";
 import LoadingCaptcha from "./ui/LoadingCaptcha";
 
 function Contact() {
-  const [feedback,setFeedback] = useState({});
+  const [feedback, setFeedback] = useState({});
   const [isLoadingCaptcha, setIsLoadingCaptcha] = useState(true)
   const [captchaValue, setCaptchaValue] = useState(null)
   const recaptchaRef = useRef();
   const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm();
-  // useEffect for resetting feedback after 5 seconds
+  
+  // useEffect pour réinitialiser les messages de feedback après 5 secondes
   useEffect(() => {
     if (feedback.status === 200) {
       reset();
@@ -30,24 +31,24 @@ function Contact() {
     if (feedback.message) {
       const timer = setTimeout(() => {
         setFeedback({});
-      }, 5000); // 10 seconds
+      }, 5000); // 5 secondes
 
-      return () => clearTimeout(timer); // Clear timer if feedback changes
+      return () => clearTimeout(timer); // Réinitialiser le timer si feedback change
     }
-  }, [feedback,reset]);
+  }, [feedback, reset]);
 
   const onSubmit = async (data) => {    
-    // api call
-    const response = await postApiCall("/api/sendMail",{...data, captchaToken: recaptchaRef.current.getValue()});
+    // appel API
+    const response = await postApiCall("/api/sendMail", { ...data, captchaToken: recaptchaRef.current.getValue() });
     const { message } = await response.json();
-    setFeedback({status: response.status, message: message});
+    setFeedback({ status: response.status, message: message });
   };
 
   return (
     <section className="scroll-mt-10 p-4 mt-10" id="contact">
       <div className="my-5">
-        <h2 className="title-blue text-3xl font-black mb-8 p-1 sm:text-5xl">Contact Me</h2>
-        <p className="md:w-[70%] text-sm sm:text-base">If you have any questions or concerns, please do not hesitate to contact me. I am open to any work opportunities that align with my skills and interests.</p>
+        <h2 className="title-blue text-3xl font-black mb-8 p-1 sm:text-5xl">Contacte-moi</h2>
+        <p className="md:w-[70%] text-sm sm:text-base">Si vous avez des questions ou des préoccupations, n&apos;hésitez pas à me contacter. Je suis ouvert à toute opportunité qui correspond à mes compétences et intérêts.</p>
       </div>
       <div className="md:flex md:gap-10 md:justify-between gap-5 grid">
         <form className="grid gap-5 shadow-md shadow-gray-500 p-2 md:w-full max-w-2xl" onSubmit={handleSubmit(onSubmit)}>
@@ -60,59 +61,59 @@ function Contact() {
             <strong className="font-bold text-inherit">{feedback?.message}</strong>
           </div>}
 
-          <InputUI id="name" type="text" labelText="Your Name" 
-            register={{...register("name",{required: "Name is required."})}}
+          <InputUI id="name" type="text" labelText="Votre Nom" 
+            register={{...register("name",{required: "Le nom est requis."})}}
             error={errors?.name}
           />
-          <InputUI id="email" type="email" labelText="Your E-mail" 
+          <InputUI id="email" type="email" labelText="Votre E-mail" 
             register={{...register("email",{
-              required: "E-mail is required.",
+              required: "L'e-mail est requis.",
               pattern: {
                 value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
-                message: "Invalid email address."
+                message: "Adresse e-mail invalide."
               }
             })}}
             error={errors?.email}
           />
           <div className="grid gap-2">
-            <label htmlFor="message" className="text-sm sm:text-base">Your Message <span className="text-red-500 font-semibold">*</span></label>
+            <label htmlFor="message" className="text-sm sm:text-base">Votre Message <span className="text-red-500 font-semibold">*</span></label>
             <textarea
               id="message"
-              {...register("message",{required:"Message is required.", minLength: {
+              {...register("message", { required: "Le message est requis.", minLength: {
                   value: 10,
-                  message: "Message must be at least 10 characters."
+                  message: "Le message doit contenir au moins 10 caractères."
               }})}
               className="w-full bg-inherit rounded-lg border-stone-600/100 border shadow-sm shadow-stone-600/90 hover:shadow-stone-400/100 transition-shadow duration-500 focus:outline-none focus:shadow-stone-400/100 min-h-[200px] p-4"
             />
             {errors.message && <span className="text-red-500 font-semibold px-2">{errors.message?.message}</span>}
           </div>
           
-            <div className="overflow-hidden">
-              {isLoadingCaptcha && <LoadingCaptcha /> }
-              <ReCAPTCHA 
-                ref={recaptchaRef}
-                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                asyncScriptOnLoad={()=> {setIsLoadingCaptcha(false);}}
-                onChange={(value) => setCaptchaValue(value)}
-              />
-            </div>
+          <div className="overflow-hidden">
+            {isLoadingCaptcha && <LoadingCaptcha />}
+            <ReCAPTCHA 
+              ref={recaptchaRef}
+              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+              asyncScriptOnLoad={() => { setIsLoadingCaptcha(false); }}
+              onChange={(value) => setCaptchaValue(value)}
+            />
+          </div>
           <button
             disabled={isSubmitting || !captchaValue} 
             type="submit"
             onClick={handleSubmit}
             className="hover:opacity-75 transition-opacity duration-500 inline-flex justify-center items-center px-6 py-4 font-semibold text-neutral-300/80 bg-blue-500/75 rounded-3xl sm:w-1/2 sm:mx-auto sm:min-w-max ">
-            {isSubmitting ? (<LoadingSpin text="Sending..."/>) : 
+            {isSubmitting ? (<LoadingSpin text="Envoi en cours..."/>) : 
               !captchaValue ? 
               <>
-                Solve The Captcha <span className="ml-2 text-xl">🥱</span>
+                Résolvez le Captcha <span className="ml-2 text-xl"></span>
               </>
-              : "Send me your message"
+              : "Envoyez-moi votre message"
             } 
           </button>
         </form>
         <div className="">
           <address className="grid gap-3 my-5 text-bold not-italic text-sm sm:text-base md:text-xl">
-            <IconContext.Provider value={{size:'25'}}>
+            <IconContext.Provider value={{ size: '25' }}>
               <div className="flex gap-3 items-center">
                 <Icon><MdAlternateEmail fill="black"/></Icon>
                 <span className="">{userData.email}</span>
@@ -127,7 +128,6 @@ function Contact() {
               </div>
             </IconContext.Provider>
           </address>
-            
           <SocialMediaLinks size="25"/>
         </div>
       </div>
