@@ -142,6 +142,13 @@ export const projectsData = [
         desciption: "Ce projet vise à analyser la répartition et l'évolution des contributions sur Wikipedia en fonction du genre des contributeurs (hommes, femmes, personnes transgenres). Wikipedia, en tant que plateforme ouverte, aspire à représenter la société dans sa diversité. Cependant, des différences notables persistent dans la participation en fonction du genre et des dimensions spatio-temporelles. Ce projet cherche à comprendre ces écarts, en explorant les contributions des utilisateurs selon le genre, la localisation géographique et les sujets modifiés. L'objectif est de révéler les tendances dans les contributions à Wikipedia à travers différentes langues et régions.."  
     },
     {
+        title: "Création et Alimentation d'un Entrepôt de Données",
+        technologies: "Talend, SQL, ETL, Modélisation en étoile, OLAP",
+        desciption: "J'ai acquis des compétences dans la création et l'alimentation d'entrepôts de données en utilisant une modélisation en étoile pour l'analyse des ventes selon divers axes (date, lieu, prestations, clients). J'ai développé des scripts SQL pour la création de tables de dimensions et de faits. J'ai également mis en place des jobs ETL avec Talend pour l'alimentation automatisée des différentes dimensions à partir de fichiers sources, ainsi que la transformation des données en format XML pour optimiser les analyses multidimensionnelles (OLAP).",
+        url:"https://github.com/Izma-shaw/datawarehouse-talend"
+    },
+    
+    {
         title: "Hanabi Game Project",
         url: "https://github.com/Izma-shaw/intelligence-artificielle-pour-hanabi",
         technologies: "Java, MVC, Apache Ant",
@@ -197,25 +204,27 @@ export const projectsData = [
         desciption: "Développement d'un jeu de Triominos avec une interface graphique en utilisant Tkinter. Le jeu propose de jouer soit à deux joueurs en local, soit contre une Intelligence Artificielle.",
         url: "https://github.com/Izma-shaw/Jeu-de-Triominos"
     },
-    
+   
 ]
 
 export const experiencesData = [
    
     {
-        title: "Ingénieur de données",
+        title: "Stagiaire Ingénieur de Données",
         company: "Entreprise AS et Fils - Guinée",
-        date: "2018 - 2019",
+        date: "2019 - 2020",
         technologies: "Python, SQL, Tableau, Excel",
-        desciption: "Responsable de la gestion, de l'optimisation et du nettoyage des bases de données de l'entreprise. Extraction et analyse de données pour la création de rapports et tableaux de bord. Mise en place de scripts d'automatisation pour améliorer l'efficacité des processus. Collaboration avec les équipes métiers pour fournir des insights stratégiques.",
+        desciption: "Participation à la gestion, à l'optimisation et au nettoyage des bases de données, réduisant les temps d'accès de 30 %. Extraction et analyse de données pour créer des rapports et tableaux de bord, facilitant ainsi la prise de décision rapide. Automatisation des processus, améliorant l'efficacité de 25 % et réduisant les erreurs humaines. Collaboration étroite avec les équipes métiers pour fournir des insights stratégiques et soutenir les objectifs de l'entreprise.",
     },
+    
     {
         title: "Gestion de Pharmacie",
-        company: "Network Systèms- Guinée",
-        date: "2019 - 2020",
+        company: "Network Systems - Guinée",
+        date: "2018 - 2019",
         technologies: "Laravel, PHP, HTML, CSS, JavaScript",
-        desciption: "Conception et développement d'une plateforme web pour la gestion des stocks, des commandes, et des clients en pharmacie, avec un système de suivi en temps réel des stocks."
+        desciption: "Conception et développement d'une plateforme web complète pour la gestion des opérations en pharmacie. La solution permet une gestion efficace des stocks, des commandes, et des informations clients, avec un système de suivi en temps réel des niveaux de stock pour éviter les ruptures. Mise en place de fonctionnalités de gestion des commandes et d'alertes automatiques pour optimiser le réapprovisionnement. Développement d'une interface utilisateur intuitive pour faciliter l'utilisation par les employés, améliorant ainsi la productivité et la précision des opérations de gestion de la pharmacie.",
     },
+    
     {
         title: "Opérateur Rotomoulage",
         company: "Rotofrance - Blainville-sur-ornes, France",
