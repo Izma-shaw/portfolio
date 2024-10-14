@@ -1,6 +1,6 @@
 export const degreesData = [
     {
-        year : "2023 - présent",
+        year : "2023 - Présent",
         degree : "Master  Algorithme et systèmes intelligents orientés sciences des données",
         university : "Université de Caen Normandie",
     },
