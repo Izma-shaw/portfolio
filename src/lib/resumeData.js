@@ -5,7 +5,7 @@ export const degreesData = [
         university : "Université de Caen Normandie",
     },
     {
-        year : "2019 - 2023",
+        year : "2021 - 2023",
         degree : "Licence en Informatique",
         university : "Université de Caen Normandie",
     },
@@ -234,7 +234,7 @@ export const experiencesData = [
     },
     {
         title: "Agent de Conditionnement",
-        company: "Laboratoires Gilbert et Famaclair - Hérouville-Saint-Clair, France",
+        company: "Laboratoires Gilbert et Farmaclair - Hérouville-Saint-Clair, France",
         date: "ETE. 2024",
         technologies: "Conditionnement, Qualité, Gestion de production",
         desciption: "Responsable du conditionnement et de l'emballage des produits dans le respect des normes de qualité et de sécurité. Vérification de la conformité des lots et suivi des procédures de contrôle qualité. Collaboration avec les équipes de production pour garantir la continuité des flux de travail et minimiser les arrêts de ligne.",
