@@ -19,11 +19,11 @@ function Header() {
       <Image className="md:hidden mx-auto rounded-xl ml-auto w-[200px] sm:w-[250px] sm:mr-0" src={userData.image} alt={userData.name} />
       <div className="flex flex-col gap-4 md:w-1/2 min-[670px]:w-1/2 md:gap-10 md:mb-5">
         {/* start of heading */}
-        <h1 className="font-semibold text-3xl min-[505px]:text-4xl lg:text-5xl whitespace-nowrap">Bonjour,<br className="mb-1" /> je m&apos;appelle
+        <h1 className="font-semibold text-3xl min-[505px]:text-4xl lg:text-5xl whitespace-nowrap">Bonjour,<br className="mb-1" /> C&apos;est
           <span className="text-green-600">{` ${userData.name}`}</span>
           <br className="sm:mb-2" />
           <span className="text-2xl sm:text-3xl whitespace-nowrap">
-            <span> Je cherche un stage en </span>
+          <span> Je cherche un stage soit en </span>
             <span className="">
               <b className="text-pink-600">{text}</b>
             </span>

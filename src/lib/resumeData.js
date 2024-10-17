@@ -11,7 +11,7 @@ export const degreesData = [
     },
     {
         year : "2015 - 2018",
-        degree : "Licence en MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises)",
+        degree : "Diplôme de Licence en MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises)",
         university : "Université Kofi Annan de Guinée",
     },
 ];
