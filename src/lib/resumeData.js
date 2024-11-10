@@ -159,14 +159,7 @@ export const projectsData = [
         url: "https://github.com/Izma-shaw",
         technologies: "Python, OpenCV, Scikit-learn",
         desciption: "Mise en œuvre de méthodes telles que Mean-Shift, SLIC, et Watershed pour la segmentation avancée des images et l'extraction de caractéristiques visuelles complexes. Application d'algorithmes tels que Canny et Hough pour assurer une détection précise des lignes et des formes circulaires dans les images."
-    },
-    {
-
-        title: "Création et Alimentation d'un Entrepôt de Données",
-        technologies: "Talend, SQL, ETL, Modélisation en étoile, OLAP",
-        desciption: "Création d'un entrepôt de données en utilisant une modélisation en étoile pour l'analyse des ventes à travers des axes comme la date, le lieu, les prestations, et les clients. Développement de scripts SQL pour la création des tables de dimensions et de faits (DIMDate, DIMLieu, DIMPrestation, DIMClient, Ventes). Mise en place de plusieurs jobs ETL avec Talend pour l'alimentation automatisée des différentes dimensions à partir de fichiers sources. Transformation des données en un format XML pour optimiser les analyses multidimensionnelles (OLAP).",
-        url: "https://github.com/Izma-shaw/datawarehouse-talend"  // Mettre l'URL de votre projet ici si disponible
-      },    
+    },    
     {
         title: "Agent Q-learning pour Frozen Lake",
         url: "https://github.com/Izma-shaw",
