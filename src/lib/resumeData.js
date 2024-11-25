@@ -207,7 +207,7 @@ export const experiencesData = [
         company: "Gaston, Startup Agricole - Caen, France",
         date: "Sep 2024 - Nov 2024 ",
         technologies: "Développement Web, Bases de données, Expérience Utilisateur (UX), Collaboration",
-        description: "Conception et implémentation d’une carte interactive connectée en temps réel à une base de données, optimisant la mise en relation entre avocats spécialisés et utilisateurs. Amélioration de l’ergonomie de la plateforme pour simplifier la navigation des acteurs agricoles et para-agricoles. Participation au développement de trois services principaux : information juridique, outils administratifs et mise en relation d’avocats partenaires.",
+        desciption: "Conception et implémentation d’une carte interactive connectée en temps réel à une base de données, optimisant la mise en relation entre avocats spécialisés et utilisateurs. Amélioration de l’ergonomie de la plateforme pour simplifier la navigation des acteurs agricoles et para-agricoles. Participation au développement de trois services principaux : information juridique, outils administratifs et mise en relation d’avocats partenaires.",
     },
     
     {
