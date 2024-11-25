@@ -201,9 +201,17 @@ export const projectsData = [
 ]
 
 export const experiencesData = [
-   
+
     {
-        title: "Stagiaire Ingénieur de Données",
+        title: "Stage : Développeur Full-Stack & Data Analyst",
+        company: "Gaston, Startup Agricole - Caen, France",
+        date: "Sep 2024 - Nov 2024 ",
+        technologies: "Développement Web, Bases de données, Expérience Utilisateur (UX), Collaboration",
+        description: "Conception et implémentation d’une carte interactive connectée en temps réel à une base de données, optimisant la mise en relation entre avocats spécialisés et utilisateurs. Amélioration de l’ergonomie de la plateforme pour simplifier la navigation des acteurs agricoles et para-agricoles. Participation au développement de trois services principaux : information juridique, outils administratifs et mise en relation d’avocats partenaires.",
+    },
+    
+    {
+        title: "Stage : Ingénieur de Données",
         company: "Entreprise AS et Fils - Guinée",
         date: "2019 - 2020",
         technologies: "Python, SQL, Tableau, Excel",
@@ -232,6 +240,7 @@ export const experiencesData = [
         technologies: "Conditionnement, Qualité, Gestion de production",
         desciption: "Responsable du conditionnement et de l'emballage des produits dans le respect des normes de qualité et de sécurité. Vérification de la conformité des lots et suivi des procédures de contrôle qualité. Collaboration avec les équipes de production pour garantir la continuité des flux de travail et minimiser les arrêts de ligne.",
     },
+
 ];
 
 
