@@ -62,8 +62,8 @@ export const media = [
 export const userData = {
     name: "Ismael",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
-    profession: ['Data Scientist', 'Data Analyst', 'Data Engineer', 'Machine Learning'],
-    descriptionText: "Actuellement en Master 2 Informatique Algorithmes et Systèmes Intelligents orienté vers la science des données à l'Université de Caen Normandie, je recherche un stage de fin d'études de 4 à 6 mois à partir de mars 2025. Passionné par la science des données et l'intelligence artificielle, je souhaite participer à des projets innovants en data science pour mettre en pratique mes compétences. J'ai acquis une solide expérience en gestion et transformation de grandes quantités de données (Pandas, Numpy, SQL), en modélisation prédictive, ainsi qu'en développement de modèles de machine learning et deep learning (TensorFlow, Keras, PyTorch). Je possède également des connaissances en visualisation de données et en vision par ordinateur. Curieux, motivé, et doté d'un bon esprit d'initiative, je suis prêt à relever des défis et à contribuer au succès des projets sur lesquels je travaillerai.",
+    profession: ['Data Scientist', 'Data Analyst', 'Data Engineer', 'Ingénieur power BI', 'Consultant test fonctionnel'],
+    descriptionText: "Actuellement en Master 2 Informatique à l’Université de Caen Normandie, je recherche un stage de fin d’études de 4 à 6 mois à partir de mars 2025. Passionné par la science des données et l’intelligence artificielle, j’ai développé des compétences en gestion de données (Pandas, Numpy, SQL), modélisation prédictive, machine learning (TensorFlow, Keras, PyTorch) et visualisation de données (Power BI, Matplotlib). Curieux et motivé, je suis prêt à relever des défis et contribuer à des projets innovants.", 
     phoneNumber : "+33 7 58 64 42 87",
     email : "sowismael224@gmail.com",
     adress : "114 rue de lebisey, 14000 Caen, France",
