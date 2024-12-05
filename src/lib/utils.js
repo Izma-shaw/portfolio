@@ -63,7 +63,7 @@ export const userData = {
     name: "Ismael",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
     profession: ['Data Scientist', 'Data Analyst', 'Data Engineer', 'Ingénieur power BI', 'Consultant test fonctionnel'],
-    descriptionText: "Actuellement en Master 2 Informatique à l’Université de Caen Normandie, je recherche un stage de fin d’études de 4 à 6 mois à partir de mars 2025. Passionné par la science des données et l’intelligence artificielle, j’ai développé des compétences en gestion de données (Pandas, Numpy, SQL), modélisation prédictive, machine learning (TensorFlow, Keras, PyTorch) et visualisation de données (Power BI, Matplotlib). Curieux et motivé, je suis prêt à relever des défis et contribuer à des projets innovants.", 
+    descriptionText: "Actuellement en Master 2 Algorithme et Système Intelligent orienté Sciences de Données à l’Université de Caen Normandie, je recherche un stage de fin d’études de 4 à 6 mois à partir de mars 2025. Passionné par la science des données et l’intelligence artificielle, j’ai développé des compétences en gestion de données (Pandas, Numpy, SQL), modélisation prédictive, machine learning (TensorFlow, Keras, PyTorch) et visualisation de données (Power BI, Matplotlib). Curieux et motivé, je suis prêt à relever des défis et contribuer à des projets innovants.", 
     phoneNumber : "+33 7 58 64 42 87",
     email : "sowismael224@gmail.com",
     adress : "114 rue de lebisey, 14000 Caen, France",
