@@ -201,13 +201,13 @@ export const projectsData = [
     {
         title: "Analyse des Contributions Genrées sur Wikipédia",
         technologies: "Python, Wikipedia API, Pandas, Scikit-learn, XGBoost, TF-IDF, KMeans",
-        description: "Étude des contributions sur Wikipédia selon le genre, avec enrichissement via DBpedia, analyse spatio-temporelle et modélisation prédictive (2025–2030). Visualisations par langue, région et thématique.",
+        desciption: "Étude des contributions sur Wikipédia selon le genre, avec enrichissement via DBpedia, analyse spatio-temporelle et modélisation prédictive (2025–2030). Visualisations par langue, région et thématique.",
         url: "https://github.com/Izma-shaw/Analyse-des-Genres-sur-Wikipedia"
     },
     {
         title: "Classification d’Images par Transfert d’Apprentissage",
         technologies: "Python, TensorFlow, Keras, VGG16, ResNet50, DenseNet, MobileNet, CNN",
-        description: "Projet de Master 2 appliquant des modèles de vision par ordinateur (CNN) avec transfert d’apprentissage pour classifier un jeu d’images. Comparaison de VGG16, ResNet50, DenseNet et MobileNet sur la base des performances, du temps de traitement et de la précision.",
+        desciption: "Projet de Master 2 appliquant des modèles de vision par ordinateur (CNN) avec transfert d’apprentissage pour classifier un jeu d’images. Comparaison de VGG16, ResNet50, DenseNet et MobileNet sur la base des performances, du temps de traitement et de la précision.",
         url: "r*https://github.com/Izma-shaw/NeutralStyleTransfert"
     },
    
