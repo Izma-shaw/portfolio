@@ -208,7 +208,7 @@ export const projectsData = [
         title: "Classification d’Images par Transfert d’Apprentissage",
         technologies: "Python, TensorFlow, Keras, VGG16, ResNet50, DenseNet, MobileNet, CNN",
         desciption: "Projet de Master 2 appliquant des modèles de vision par ordinateur (CNN) avec transfert d’apprentissage pour classifier un jeu d’images. Comparaison de VGG16, ResNet50, DenseNet et MobileNet sur la base des performances, du temps de traitement et de la précision.",
-        url: "r*https://github.com/Izma-shaw/NeutralStyleTransfert"
+        url: "https://github.com/Izma-shaw/NeutralStyleTransfert"
     },
    
 ]
