@@ -34,7 +34,7 @@ export const media = [
     },
     {
         "name": "Linkedin",
-        "url": "https://www.linkedin.com/in/sow-ismael-11871a140/", // change it to your Linkedin profile link
+        "url": "https://www.linkedin.com/in/ismael-sow/", // change it to your Linkedin profile link
         "show": true, // turn it to false if you don't have Linkedin
         "icon" : <FaLinkedin className="rounded-full" fill="black"/>
     },
@@ -78,7 +78,7 @@ export const userData = {
     name: "Ismael",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
     profession: ['Analyste de données', 'Data Engineer'],
-    descriptionText: "Actuellement en stage de fin d'études chez ERILIA au pôle décisionnel et pilotage de l'information (DPI) à Marseille, je travaille sur la gestion et l'optimisation des données : création d’entrepôts, déploiement de pipelines ETL, automatisation des workflows et gestion de la documentation technique. À l'écoute des opportunités pour poursuivre ma carrière dans l'ingénierie des données et l'analyse.",
+    descriptionText: "Actuellement en stage de fin d’études chez ERILIA à Marseille, je participe à la conception d’un Data Warehouse, au développement de pipelines ETL fiables avec Talend, à l’automatisation des workflows de données et à la rédaction de la documentation technique. Je suis à la recherche d’un CDI en data engineering ou business intelligence pour poursuivre dans un environnement stimulant et contribuer à des projets à fort impact. " ,
     phoneNumber: "+33 7 58 64 42 87",
     email: "sowismael224@gmail.com",
     adress: "114 rue de lebisey, 14000 Caen, France",
