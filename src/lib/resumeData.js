@@ -225,7 +225,7 @@ export const experiencesData = [
     
     {
         title: "Stage : Ingénieur de Données",
-        company: "Entreprise AS et Fils - Guinée",
+        company: "MTN - Guinée",
         date: "2019 - 2020",
         technologies: "Python, SQL, Tableau, Excel",
         desciption: "Participation à la gestion, à l'optimisation et au nettoyage des bases de données, réduisant les temps d'accès de 30 %. Extraction et analyse de données pour créer des rapports et tableaux de bord, facilitant ainsi la prise de décision rapide. Automatisation des processus, améliorant l'efficacité de 25 % et réduisant les erreurs humaines. Collaboration étroite avec les équipes métiers pour fournir des insights stratégiques et soutenir les objectifs de l'entreprise.",
