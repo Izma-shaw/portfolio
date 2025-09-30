@@ -77,11 +77,11 @@ export const media = [
 export const userData = {
     name: "Ismael",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
-    profession: ['Analyste de données', 'Data Engineer'],
-    descriptionText: "Actuellement en stage de fin d’études chez ERILIA à Marseille, je participe à la conception d’un entrepôt de données, au développement de pipelines ETL fiables avec Talend, à l’automatisation des workflows, ainsi qu’à la migration de rapports BO vers Power BI. Je suis à la recherche d’un CDI en data engineering ou business intelligence pour évoluer dans un environnement stimulant et contribuer à des projets à fort impact.",
+    profession: ['Data Engineer', 'Développeur Talend'],
+    descriptionText: "Actuellement en CDD chez ERILIA à Marseille, suite à mon stage de fin d’études, je conçois et développe des pipelines Talend V7 pour la transformation et l’intégration de données issues de sources multiples. Je mets en œuvre des processus ETL automatisés, assure la qualité et la cohérence des données, et participe à la migration de rapports BO vers Power BI. Passionné par l’ingénierie des données, je souhaite continuer à créer des solutions performantes et optimisées pour soutenir la prise de décision et l’analyse métier.",
     phoneNumber: "+33 7 58 64 42 87",
     email: "sowismael224@gmail.com",
-    adress: "114 rue de lebisey, 14000 Caen, France",
+    adress: "168 rue saint pierre 13000 Marseille, France",
 }
 
 // your professions
