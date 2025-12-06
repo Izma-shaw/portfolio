@@ -39,6 +39,7 @@ function Header() {
       id="home"
       className="relative flex flex-col gap-10 py-12 md:flex-row md:items-center md:justify-between md:py-20"
     >
+      {/* Bloc texte */}
       <motion.div
         className="flex flex-1 flex-col gap-6 md:gap-8"
         variants={containerVariants}
@@ -47,7 +48,7 @@ function Header() {
       >
         <p className="inline-flex max-w-fit items-center gap-2 rounded-full border border-slate-700 bg-slate-900/70 px-3 py-1 text-xs font-medium text-slate-300 shadow-inner-glow">
           <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
-          Disponible en Data Engineering & Analytics
+          Disponible en Data Engineering &amp; Analytics
         </p>
 
         <h1 className="space-y-2 text-3xl font-semibold tracking-tight sm:text-4xl lg:text-5xl">
@@ -84,6 +85,7 @@ function Header() {
         </div>
       </motion.div>
 
+      {/* Bloc photo */}
       <motion.div
         className="flex flex-1 items-center justify-center md:justify-end"
         variants={imageVariants}
@@ -91,13 +93,18 @@ function Header() {
         animate="visible"
       >
         <div className="relative">
+          {/* halo */}
           <div className="pointer-events-none absolute -inset-6 rounded-full bg-gradient-to-tr from-sky-500/30 via-emerald-400/20 to-transparent blur-2xl" />
-          <Image
-            className="relative h-64 w-64 rounded-3xl border border-slate-700/60 object-cover shadow-soft-lg md:h-80 md:w-80"
-            src={userData.image}
-            alt={userData.name}
-            priority
-          />
+
+          {/* avatar rond avec fond sombre */}
+          <div className="relative h-64 w-64 overflow-hidden rounded-full border border-slate-700/70 bg-slate-900/90 shadow-soft-lg md:h-80 md:w-80">
+            <Image
+              src={userData.image}
+              alt={userData.name}
+              priority
+              className="h-full w-full object-cover object-top"
+            />
+          </div>
         </div>
       </motion.div>
     </header>
