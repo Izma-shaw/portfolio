@@ -2,29 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   font-size: 16px;
-  --dark-color : #212428;
-  --text-color-green : #00bf63;
-  --text-color-blue : #38b6ff
+  --text-color-blue: #38bdf8;
+  --text-color-green: #22c55e;
 }
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
+
+/* Reset léger (Tailwind fait déjà le gros du travail) */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  list-style-type: none;
-  color: rgb(243, 243, 243);
-  font-family: fantasy Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  /* background-color: var(--dark-color) ; */
-  background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #020617 0, #020617 40%, #020617 100%);
+  color: #e5e7eb;
 }
 
-nav {
-  background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
+/* Pour compat avec ton ancien code */
+.title-blue {
+  color: var(--text-color-blue);
+}
+
+.title-green {
+  color: var(--text-color-green);
 }
 
 @layer utilities {
@@ -32,34 +40,3 @@ nav {
     text-wrap: balance;
   }
 }
-
-@media (min-width: 768px) {
-
-}
-
-.title-blue{
-  color: var(--text-color-blue);
-}
-.title-green{
-  color: var(--text-color-green);
-}
-
-/* .loader {
-  width: 48px;
-  height: 48px;
-  border: 5px solid #FFF;
-  border-bottom-color: transparent;
-  border-radius: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  animation: rotation 1s linear infinite;
-  }
-
-  @keyframes rotation {
-  0% {
-      transform: rotate(0deg);
-  }
-  100% {
-      transform: rotate(360deg);
-  }
-  }  */

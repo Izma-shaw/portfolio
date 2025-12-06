@@ -6,12 +6,26 @@ import Resume from "@/components/Resume";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <Features />
-      <Resume />
-      {/* <Services /> */}
-      <Contact />
-    </>
+    <div className="space-y-24 md:space-y-32">
+      <section aria-label="Présentation">
+        <Header />
+      </section>
+
+      <section aria-label="Compétences clés">
+        <Features />
+      </section>
+
+      <section aria-label="Parcours & expériences">
+        <Resume />
+      </section>
+
+      {/* <section aria-label="Services proposés">
+        <Services />
+      </section> */}
+
+      <section aria-label="Contact">
+        <Contact />
+      </section>
+    </div>
   );
 }
