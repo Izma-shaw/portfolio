@@ -11,8 +11,9 @@ export const featuresData = [
     title: "Intégration d’API & Extranet",
     body: `Je suis en charge de l’intégration du nouveau projet d’extranet locataire, basé sur des API REST. Je développe des flux Talend dédiés à l’envoi et la synchronisation de données (JSON/XML), en respectant les schémas attendus, les contraintes métier et les règles de hiérarchie. J’assure également la gestion des erreurs, les contrôles de retours API et la fiabilisation des échanges.`,
   },
-  {
-    title: "Machine Learning & Data Science (bases)",
-    body: `Issu d’un master orienté sciences des données, je possède des bases solides en machine learning et en modélisation statistique. J’ai travaillé sur des projets académiques de classification et d’analyse prédictive (régression, SVM), incluant la préparation des données, l’entraînement des modèles et l’évaluation des performances. Ces compétences me permettent de concevoir des pipelines data adaptés à des usages analytiques et ML.`,
+  { 
+    title: "Machine Learning & Data Science",
+    body: `Issu d’un master orienté sciences des données, je dispose de bases solides en machine learning et en modélisation statistique. J’ai mené des projets académiques couvrant l’ensemble du cycle data, de la préparation des données à l’analyse et à l’évaluation des résultats. Ce socle me permet de concevoir des pipelines de données adaptés à des usages analytiques et orientés data science.`,
   },
+
 ];
