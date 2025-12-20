@@ -1,25 +1,18 @@
 export const featuresData = [
-    {
-        title: "Analyse de données",
-        body: `J'ai une solide expérience en programmation et en data wrangling, en manipulant des données avec des technologies comme Python, Pandas et NumPy. Mon expertise comprend l'exploration, le nettoyage, et la transformation de données complexes pour les rendre exploitables, ainsi que la visualisation de résultats via des bibliothèques telles que Matplotlib et Seaborn. J'ai mené plusieurs projets d'analyse pour extraire des insights exploitables et optimiser la prise de décision.`,
-    },    
-    // {
-    //     title: "Modélisation Prédictive",
-    //     body: `J'ai développé des modèles prédictifs en utilisant des techniques de machine learning telles que la régression, les forêts aléatoires et les réseaux de neurones. Ces modèles ont été utilisés pour des prévisions et des classifications dans des projets réels, avec une optimisation des hyperparamètres grâce à GridSearch et une évaluation de la performance à l'aide de métriques comme l'AUC-ROC et la précision.`,
-    // },
-    {
-        title: "Ingénierie des Données",
-        body: `J'ai développé des compétences approfondies en gestion de flux de données, en maîtrisant l'extraction, la transformation et le chargement (ETL) de grands volumes de données. J'ai conçu et mis en place des pipelines de données automatisés, intégrant des extractions via API, SQL et NumPy pour les opérations d'extraction, ainsi que Pandas pour le traitement des données. Mes projets m'ont également permis d'explorer des techniques avancées d'optimisation de flux et de structuration de données, facilitant ainsi les analyses en aval.`,
-    },  
-    {
-        title: "Traitement du Langage Naturel (NLP)",
-        body: `J'ai acquis des compétences solides en traitement automatique du langage (NLP), comprenant le prétraitement de textes (nettoyage, tokenisation, lemmatisation) ainsi que l’analyse de sentiments et l’extraction de caractéristiques linguistiques. J'ai également travaillé sur la classification de textes en utilisant des modèles supervisés tels que la régression logistique et SVM. Technologies : Python, NLTK, spaCy, Scikit-learn, Pandas, NumPy.`,
-    }, 
-    {
-        title: "Vision par Ordinateur",
-        body: `J'ai acquis des compétences pratiques dans le développement de modèles de vision par ordinateur en utilisant des réseaux de neurones convolutifs (CNN) et des architectures avancées comme UNet++ pour la segmentation d'images. Ces compétences ont été développées dans le cadre de projets académiques de détection d'objets et de classification d'images.`,
-    },
-    
-    
-    
+  {
+    title: "Analyse de données & Qualité",
+    body: `J’interviens sur l’analyse et la fiabilisation des données issues de systèmes métiers, principalement via SQL et Python. Mon travail consiste à contrôler la cohérence des données, identifier les anomalies, mettre en place des règles de qualité et produire des jeux de données exploitables pour le décisionnel. J’accompagne également les équipes métier dans la compréhension des données et l’amélioration des rapports.`,
+  },
+  {
+    title: "Ingénierie des Données (ETL)",
+    body: `Développeur Talend / Data Engineer, je conçois et maintiens des flux ETL sous Talend Open Studio et Talaxie. J’interviens sur l’extraction, la transformation et le chargement de données depuis des bases Oracle et des API REST (JSON/XML), avec injection vers Oracle et Snowflake. Je gère la structuration des données, les mappings complexes, la pagination API et l’orchestration des jobs en production.`,
+  },
+  {
+    title: "Intégration d’API & Extranet",
+    body: `Je suis en charge de l’intégration du nouveau projet d’extranet locataire, basé sur des API REST. Je développe des flux Talend dédiés à l’envoi et la synchronisation de données (JSON/XML), en respectant les schémas attendus, les contraintes métier et les règles de hiérarchie. J’assure également la gestion des erreurs, les contrôles de retours API et la fiabilisation des échanges.`,
+  },
+  {
+    title: "Machine Learning & Data Science (bases)",
+    body: `Issu d’un master orienté sciences des données, je possède des bases solides en machine learning et en modélisation statistique. J’ai travaillé sur des projets académiques de classification et d’analyse prédictive (régression, SVM), incluant la préparation des données, l’entraînement des modèles et l’évaluation des performances. Ces compétences me permettent de concevoir des pipelines data adaptés à des usages analytiques et ML.`,
+  },
 ];

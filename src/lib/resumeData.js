@@ -215,45 +215,55 @@ export const projectsData = [
 
 export const experiencesData = [
 
-    {
-        title: "Stage : Développeur Full-Stack & Data Analyst",
-        company: "Gaston, Startup Agricole - Caen, France",
-        date: "Sep 2024 - Nov 2024 ",
-        technologies: "Développement Web, Bases de données, Expérience Utilisateur (UX), Collaboration",
-        desciption: "Conception et implémentation d’une carte interactive connectée en temps réel à une base de données, optimisant la mise en relation entre avocats spécialisés et utilisateurs. Amélioration de l’ergonomie de la plateforme pour simplifier la navigation des acteurs agricoles et para-agricoles. Participation au développement de trois services principaux : information juridique, outils administratifs et mise en relation d’avocats partenaires.",
-    },
-    
-    {
-        title: "Stage : Ingénieur de Données",
-        company: "MTN - Guinée",
-        date: "2019 - 2020",
-        technologies: "Python, SQL, Tableau, Excel",
-        desciption: "Participation à la gestion, à l'optimisation et au nettoyage des bases de données, réduisant les temps d'accès de 30 %. Extraction et analyse de données pour créer des rapports et tableaux de bord, facilitant ainsi la prise de décision rapide. Automatisation des processus, améliorant l'efficacité de 25 % et réduisant les erreurs humaines. Collaboration étroite avec les équipes métiers pour fournir des insights stratégiques et soutenir les objectifs de l'entreprise.",
-    },
-    
-    {
-        title: "Gestion de Pharmacie",
-        company: "Network Systems - Guinée",
-        date: "2018 - 2019",
-        technologies: "Laravel, PHP, HTML, CSS, JavaScript",
-        desciption: "Conception et développement d'une plateforme web complète pour la gestion des opérations en pharmacie. La solution permet une gestion efficace des stocks, des commandes, et des informations clients, avec un système de suivi en temps réel des niveaux de stock pour éviter les ruptures. Mise en place de fonctionnalités de gestion des commandes et d'alertes automatiques pour optimiser le réapprovisionnement. Développement d'une interface utilisateur intuitive pour faciliter l'utilisation par les employés, améliorant ainsi la productivité et la précision des opérations de gestion de la pharmacie.",
-    },
-    
-    {
-        title: "Opérateur Rotomoulage",
-        company: "Rotofrance - Blainville-sur-ornes, France",
-        date: "ETE. 2022 et 2023",
-        technologies: "Maintenance, Analyse de données, Qualité",
-        desciption: "Responsable d'une ligne de production, assurant la supervision des opérations de rotomoulage et la gestion complète de la machines. Collecte et analyse des données de performance pour optimiser les cycles de production et réduire les temps d'arrêt. Surveillance des indicateurs de qualité et utilisation des données pour améliorer les processus et garantir des standards élevés de production. Participation à l'automatisation des processus et formation des opérateurs sur les meilleures pratiques de production, y compris l'utilisation des données pour la maintenance préventive."
-    },
-    {
-        title: "Agent de Conditionnement",
-        company: "Laboratoires Gilbert et Farmaclair - Hérouville-Saint-Clair, France",
-        date: "ETE. 2024",
-        technologies: "Conditionnement, Qualité, Gestion de production",
-        desciption: "Responsable du conditionnement et de l'emballage des produits dans le respect des normes de qualité et de sécurité. Vérification de la conformité des lots et suivi des procédures de contrôle qualité. Collaboration avec les équipes de production pour garantir la continuité des flux de travail et minimiser les arrêts de ligne.",
-    },
+  {
+    title: "Stage : Ingénieur de Données / Développeur Talend",
+    company: "ERILIA – Marseille, France",
+    date: "Mars 2025 - Sept 2025",
+    technologies: "Talend Open Studio, Talaxie, Oracle, Snowflake, API REST, SQL, JSON/XML",
+    desciption: "Participation active à la conception et à l’alimentation d’un Data Warehouse sur Snowflake (16 dimensions, 3 tables de faits, vues historisées). Développement et fiabilisation de flux ETL Talend (Oracle → Snowflake). Intégration de flux API REST via Talend (pagination, JSON/XML, injection Oracle/Snowflake). Mise en place d’un système de gestion des erreurs automatisé avec alertes, et contribution à la structuration et à la qualité des données décisionnelles.",
+  },
+
+  {
+    title: "Stage : Développeur Full-Stack & Data Engineer",
+    company: "Gaston, Startup Agricole – Caen, France",
+    date: "Sept 2024 - Déc 2024",
+    technologies: "Python, SQL, JavaScript, Bases de données, UX",
+    desciption: "Conception et développement d’une carte interactive connectée à une base de données, facilitant la mise en relation entre utilisateurs et professionnels. Optimisation de l’expérience utilisateur et amélioration de l’ergonomie de la plateforme. Contribution au développement de services orientés données et à l’exploitation des informations métiers.",
+  },
+
+  {
+    title: "Stage : Data Analyst",
+    company: "MTN – Guinée",
+    date: "2019 - 2020",
+    technologies: "Python, SQL, Tableau, Excel",
+    desciption: "Participation à l’analyse, au nettoyage et à l’optimisation des bases de données. Extraction et analyse de données pour la création de rapports et tableaux de bord facilitant la prise de décision. Automatisation de traitements récurrents et collaboration avec les équipes métiers pour fournir des indicateurs pertinents.",
+  },
+
+  {
+    title: "Développement d’une application de gestion de pharmacie",
+    company: "Network Systems – Guinée",
+    date: "2018 - 2019",
+    technologies: "Laravel, PHP, HTML, CSS, JavaScript",
+    desciption: "Conception et développement d’une application web de gestion de pharmacie : suivi des stocks, gestion des commandes et informations clients. Mise en place d’alertes automatiques pour le réapprovisionnement et développement d’une interface utilisateur intuitive améliorant la fiabilité et la productivité.",
+  },
+
+  {
+    title: "Opérateur de Production – Rotomoulage",
+    company: "Rotofrance – Blainville-sur-Orne, France",
+    date: "Été 2022 et 2023",
+    technologies: "Qualité, Analyse de données, Maintenance",
+    desciption: "Supervision d’une ligne de production et suivi des indicateurs de performance. Collecte et analyse de données de production pour optimiser les cycles et réduire les arrêts. Contribution à l’amélioration continue et à la maintenance préventive.",
+  },
+
+  {
+    title: "Agent de Conditionnement",
+    company: "Laboratoires Gilbert & Farmaclair – Hérouville-Saint-Clair, France",
+    date: "Été 2024",
+    technologies: "Qualité, Production industrielle",
+    desciption: "Conditionnement et contrôle qualité des produits dans le respect des normes. Vérification de la conformité des lots et collaboration avec les équipes de production pour assurer la continuité des flux.",
+  },
 
 ];
+
 
 
