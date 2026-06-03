@@ -48,7 +48,7 @@ function Header() {
       >
         <p className="inline-flex max-w-fit items-center gap-2 rounded-full border border-slate-700 bg-slate-900/70 px-3 py-1 text-xs font-medium text-slate-300 shadow-inner-glow">
           <span className="inline-block h-2 w-2 rounded-full bg-emerald-400" />
-          Disponible en Data Engineering &amp; Analytics
+          En poste • Ingénieur Données &amp; IA
         </p>
 
         <h1 className="space-y-2 text-3xl font-semibold tracking-tight sm:text-4xl lg:text-5xl">
@@ -62,7 +62,7 @@ function Header() {
           </span>
 
           <span className="block text-lg font-normal text-slate-300 sm:text-xl">
-            Actuellement en CDD chez ERILIA •{" "}
+            Ingénieur Données &amp; IA • ERILIA Marseille •{" "}
             <span className="font-semibold text-sky-400">{text}</span>
           </span>
         </h1>

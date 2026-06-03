@@ -77,8 +77,8 @@ export const media = [
 export const userData = {
     name: "Ismael",
     image: profileImage, // you need to put your image in /src/images with the name profile.png
-    profession: ['Data Engineer', 'Développeur Talend'],
-    descriptionText: "Actuellement en CDD chez ERILIA à Marseille, suite à mon stage de fin d’études, je conçois et développe des pipelines Talend V7 pour la transformation et l’intégration de données issues de sources multiples. Je mets en œuvre des processus ETL automatisés, assure la qualité et la cohérence des données, et participe à la migration de rapports BO vers Power BI. Passionné par l’ingénierie des données, je souhaite continuer à créer des solutions performantes et optimisées pour soutenir la prise de décision et l’analyse métier.",
+    profession: ["Ingénieur de Données & IA", "Data Engineer", "Développeur Talend", "Ingénieur Power BI", "Concepteur d’Agents IA"],
+    descriptionText: "Ingénieur de Données & IA chez ERILIA (Marseille), je conçois des pipelines ETL Talend à grande échelle (1M+ lignes/jour), intègre des API REST complexes et développe des agents conversationnels IA (Copilot Studio, RAG, Prompt Engineering). Issu d’un Master 2 Sciences des Données (Université de Caen Normandie), je maîtrise la chaîne data complète : extraction, transformation, stockage (Oracle, Snowflake) et restitution (Power BI, Business Objects). Passionné par l’IA générative et l’ingénierie des données, je crée des solutions performantes pour soutenir la prise de décision métier.",
     phoneNumber: "+33 7 58 64 42 87",
     email: "sowismael224@gmail.com",
     adress: "168 rue saint pierre 13000 Marseille, France",

@@ -216,11 +216,19 @@ export const projectsData = [
 export const experiencesData = [
 
   {
-    title: "Stage : Ingénieur de Données / Développeur Talend",
+    title: "Ingénieur de Données & IA",
+    company: "ERILIA – Marseille, France",
+    date: "Sept 2025 - Aujourd’hui",
+    technologies: "Talend Open Studio, Talaxie, API REST, XML/JSON, Oracle, Snowflake, Copilot Studio, RAG, Prompt Engineering, Power Automate, Power BI",
+    desciption: "En charge du projet d’extranet locataire : développement de 20+ flux Talend (XML/JSON), intégration de 20+ endpoints API REST et mapping de données (1M+ lignes/jour). Conception et déploiement d’un agent conversationnel IA (Copilot Studio, RAG multi-sources, 10+ cas métier). Orchestration via Power Automate. Mise en place de contrôles qualité des données. Rédaction de la documentation technique et support niveau 3.",
+  },
+
+  {
+    title: "Ingénieur de Données (Stage de fin d’études)",
     company: "ERILIA – Marseille, France",
     date: "Mars 2025 - Sept 2025",
-    technologies: "Talend Open Studio, Talaxie, Oracle, Snowflake, API REST, SQL, JSON/XML",
-    desciption: "Participation active à la conception et à l’alimentation d’un Data Warehouse sur Snowflake (16 dimensions, 3 tables de faits, vues historisées). Développement et fiabilisation de flux ETL Talend (Oracle → Snowflake). Intégration de flux API REST via Talend (pagination, JSON/XML, injection Oracle/Snowflake). Mise en place d’un système de gestion des erreurs automatisé avec alertes, et contribution à la structuration et à la qualité des données décisionnelles.",
+    technologies: "Talend Open Studio, Talaxie, Oracle, Snowflake, API REST, SQL, JSON/XML, Power BI, Business Objects",
+    desciption: "Contribution à la conception d’un Data Warehouse sur Snowflake (16 dimensions, 3 tables de faits, vues historisées). Migration de 20 rapports Business Objects vers Power BI. Développement et fiabilisation de flux ETL Talend (Oracle → Snowflake). Intégration d’API REST (pagination, JSON, injection Oracle/Snowflake). Mise en place d’un système de gestion des erreurs automatisé avec alertes mail.",
   },
 
   {
