@@ -216,7 +216,7 @@ export const projectsData = [
 export const experiencesData = [
 
   {
-    title: "Ingénieur de Données & IA",
+    title: "Data Engineer & IA - Talend Developer",
     company: "ERILIA – Marseille, France",
     date: "Sept 2025 - Aujourd’hui",
     technologies: "Talend Open Studio, Talaxie, API REST, XML/JSON, Oracle, Snowflake, Copilot Studio, RAG, Prompt Engineering, Power Automate, Power BI",
@@ -224,7 +224,7 @@ export const experiencesData = [
   },
 
   {
-    title: "Ingénieur de Données (Stage de fin d’études)",
+    title: "Data Engineer & Analyst",
     company: "ERILIA – Marseille, France",
     date: "Mars 2025 - Sept 2025",
     technologies: "Talend Open Studio, Talaxie, Oracle, Snowflake, API REST, SQL, JSON/XML, Power BI, Business Objects",
