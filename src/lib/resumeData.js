@@ -231,13 +231,13 @@ export const experiencesData = [
     desciption: "Contribution à la conception d’un Data Warehouse sur Snowflake (16 dimensions, 3 tables de faits, vues historisées). Migration de 20 rapports Business Objects vers Power BI. Développement et fiabilisation de flux ETL Talend (Oracle → Snowflake). Intégration d’API REST (pagination, JSON, injection Oracle/Snowflake). Mise en place d’un système de gestion des erreurs automatisé avec alertes mail.",
   },
 
-  {
-    title: "Stage : Développeur Full-Stack & Data Engineer",
-    company: "Gaston, Startup Agricole – Caen, France",
-    date: "Sept 2024 - Déc 2024",
-    technologies: "Python, SQL, JavaScript, Bases de données, UX",
-    desciption: "Conception et développement d’une carte interactive connectée à une base de données, facilitant la mise en relation entre utilisateurs et professionnels. Optimisation de l’expérience utilisateur et amélioration de l’ergonomie de la plateforme. Contribution au développement de services orientés données et à l’exploitation des informations métiers.",
-  },
+{
+  title: "Stage : Data Engineer – Pipelines & APIs",
+  company: "Gaston, Startup Agricole – Caen, France",
+  date: "Juin 2024 - Déc 2024",
+  technologies: "Python (Pandas), Talend, SQL (PostgreSQL/MySQL), APIs REST, GeoJSON, Bash/CRON",
+  desciption: "Conception de pipelines ETL hybrides (Python, Talend, SQL) et consommation d'APIs REST (GeoJSON) pour alimenter la carte interactive. Modélisation de la base de données relationnelle, écriture de requêtes d'appariement (match-making) et automatisation de l'orchestration des flux via des scripts Bash et tâches CRON.",
+},
 
   {
     title: "Stage : Data Analyst",
