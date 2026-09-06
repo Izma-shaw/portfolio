@@ -226,7 +226,7 @@ export const experiencesData = [
   {
     title: "Data Engineer & Analyst",
     company: "ERILIA – Marseille, France",
-    date: "Mars 2025 - Sept 2025",
+    date: "Mars 2025 - Août 2025",
     technologies: "Talend Open Studio, Talaxie, Oracle, Snowflake, API REST, SQL, JSON/XML, Power BI, Business Objects",
     desciption: "Contribution à la conception d’un Data Warehouse sur Snowflake (16 dimensions, 3 tables de faits, vues historisées). Migration de 20 rapports Business Objects vers Power BI. Développement et fiabilisation de flux ETL Talend (Oracle → Snowflake). Intégration d’API REST (pagination, JSON, injection Oracle/Snowflake). Mise en place d’un système de gestion des erreurs automatisé avec alertes mail.",
   },
@@ -234,7 +234,7 @@ export const experiencesData = [
 {
   title: "Stage : Data Engineer – Pipelines & APIs",
   company: "Gaston, Startup Agricole – Caen, France",
-  date: "Juin 2024 - Déc 2024",
+  date: "Avril 2024 - Aout 2024",
   technologies: "Python (Pandas), Talend, SQL (PostgreSQL/MySQL), APIs REST, GeoJSON, Bash/CRON",
   desciption: "Conception de pipelines ETL hybrides (Python, Talend, SQL) et consommation d'APIs REST (GeoJSON) pour alimenter la carte interactive. Modélisation de la base de données relationnelle, écriture de requêtes d'appariement (match-making) et automatisation de l'orchestration des flux via des scripts Bash et tâches CRON.",
 },
